@@ -19,6 +19,6 @@ array = "Hello, #{speaker}! You'll be assigned to room #{room + 1}!"
 new_array << array
 puts new_array
 end
-
+new_array
 end
 

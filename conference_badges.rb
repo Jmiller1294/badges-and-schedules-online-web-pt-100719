@@ -25,7 +25,7 @@ end
 def printer(array)
   
 batch_badge_creator.each do 
- puts  batch_badge_creator
+ puts  batch_badge_creator(array)
  
 end
   batch_badge_creator

@@ -18,8 +18,6 @@ array.each_with_index do |speaker, room|
 array = "Hello, #{speaker}! You'll be assigned to room #{room + 1}!"
 new_array << array
 end
-new_array
-
-
+puts new_array
 end
 

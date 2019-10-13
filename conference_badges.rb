@@ -25,8 +25,8 @@ end
 def printer(attendees)
   
 attendees.each do |array|
-   batch_badge_creator(array)
+   batch_badge_creator
  
 end
-  puts batch_badge_creator(array)
+  
 end

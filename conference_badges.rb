@@ -12,8 +12,3 @@ new_array = []
 end
 
 
-def assign_rooms
-
-
-
-end

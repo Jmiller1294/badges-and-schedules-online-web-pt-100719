@@ -24,7 +24,7 @@ end
 
 def printer(array)
   
-printer.each do 
+batch_badge_creator.each do 
  puts  batch_badge_creator
  puts assign_rooms
 end

@@ -24,7 +24,7 @@ end
 
 def printer(attendees)
 attendees.each do
-puts assign_rooms[0]
+puts batch_badge_creator[0]
 
 
 end

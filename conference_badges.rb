@@ -24,7 +24,7 @@ end
 
 def printer(attendees)
   
-attendees.each do |array|
+attendees.each do
    batch_badge_creator
  
 end

@@ -23,9 +23,6 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-  count = 0
-  while count <= attendees.length-1
-  puts "Hello, my name is #{attendees[count]}."
-  count += 1
+  
 end
 end

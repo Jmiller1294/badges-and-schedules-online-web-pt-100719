@@ -5,13 +5,12 @@ end
 
 def batch_badge_creator(array)
 new_array = []
-array.each do |name|
-  new_array << name
-  
+  array.each do |name|
+    new_array << name
+  end
+  new_array
 end
 
-
-end
 
 def assign_rooms
 

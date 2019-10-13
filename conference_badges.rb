@@ -22,4 +22,3 @@ def assign_rooms(array)
   new_array
 end
 
-assign_rooms

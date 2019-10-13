@@ -23,7 +23,11 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-puts assign_rooms
+attendees.each do
+puts assign_rooms[0]
+
+
+end
 
 
 end

@@ -23,7 +23,7 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-  printer do |attendee|
+  printer do |assign_rooms|
     puts attendee
   end
   attendee

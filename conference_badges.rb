@@ -28,6 +28,6 @@ def printer(attendees)
 puts "#{assign_rooms}"
 
 end
-
+assign_rooms
 
 end

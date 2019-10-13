@@ -22,11 +22,4 @@ def assign_rooms(array)
   new_array
 end
 
-def printer(attendees)
-  
-attendees.each do |attendee|
-   puts "#{batch_badge_creator} + #{assign_rooms}"
- 
-end
-  puts attendee
-end
+assign_rooms

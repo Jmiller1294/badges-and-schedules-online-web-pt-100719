@@ -25,8 +25,8 @@ end
 def printer(attendees)
   attendees.each do |name|
     puts "Hello, my name is #{name}."
-end
-attendees.each_with_index do |attendee,room|
-  puts "Hello, #{attendee}! You'll be assigned to room #{room + 1}!"
-end
+  end
+  attendees.each_with_index do |attendee,room|
+    puts "Hello, #{attendee}! You'll be assigned to room #{room + 1}!"
+  end
 end

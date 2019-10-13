@@ -20,6 +20,6 @@ array.each_with_index do |speaker, room|
 
 
 end
-
+puts "Hello, #{speaker}! You'll be assigned to room #{room + 1}!"
 end
 

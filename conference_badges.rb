@@ -16,10 +16,10 @@ def assign_rooms(array)
   new_array = []
 array.each_with_index do |speaker, room|
 array = "Hello, #{speaker}! You'll be assigned to room #{room + 1}!"
-
+new_array << array
 
 
 end
-
+new_array
 end
 

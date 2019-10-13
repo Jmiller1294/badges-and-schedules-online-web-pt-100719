@@ -23,8 +23,8 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-attendees.each do |item|
-puts "#{item}"
+attendees.each do |batch_badge_creator|
+puts "#{batch_badge_creator}"
 
 
 end

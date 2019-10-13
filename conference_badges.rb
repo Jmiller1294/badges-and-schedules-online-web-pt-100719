@@ -24,6 +24,6 @@ end
 
 def printer(attendees)
   attendees.each do |name|
-    "Hello, #{name}!"
+    puts "Hello, #{name}!"
 end
 end

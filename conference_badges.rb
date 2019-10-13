@@ -29,3 +29,4 @@ end
 attendees.each_with_index do |attendee,room|
   puts "Hello, #{attendee}! You'll be assigned to room #{room + 1}!"
 end
+end

@@ -12,5 +12,12 @@ new_array = []
   new_array
 end
 
+def assign_rooms(array)
+  new_array = []
+array.each do |speaker, room|
+"Hello, #{speaker}!You'll be assigned to room #{room}!"
+end
 
+
+end
 

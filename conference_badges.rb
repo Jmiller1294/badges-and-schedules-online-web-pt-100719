@@ -1,5 +1,5 @@
 
-require 'pry'
+
 def badge_maker(name)
   "Hello, my name is #{name}."
 end
@@ -23,9 +23,8 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-  printer.each_with_index do |attendee|
+  printer do |attendee|
     puts attendee
-    binding.pry
   end
   attendee
 end

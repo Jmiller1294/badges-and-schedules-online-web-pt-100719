@@ -26,4 +26,6 @@ def printer(attendees)
   attendees.each do |name|
     puts "Hello, my name is #{name}."
 end
+attendees.each_with_index do |attendees,room|
+  puts ""
 end

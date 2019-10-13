@@ -25,7 +25,7 @@ end
 def printer(attendees)
   printer.each do |line|
   
-  
+  puts line
 end
 attendees
   

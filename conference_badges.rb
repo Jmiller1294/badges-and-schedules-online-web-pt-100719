@@ -25,8 +25,8 @@ end
 def printer(attendees)
   
   
-   batch_badge_creator
-end
-puts attendees
+ puts  batch_badge_creator
+
+
   
 end

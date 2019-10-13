@@ -23,7 +23,7 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-assign_rooms.each_with_indexs(0)
+assign_rooms(new_array)
 
 
 end

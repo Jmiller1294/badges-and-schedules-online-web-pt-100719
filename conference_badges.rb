@@ -23,6 +23,7 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
+  count = 0
   while count <= new_array.length-1
   puts "Stop hitting yourself #{new_array[count]}!"
   count += 1

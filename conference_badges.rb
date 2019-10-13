@@ -25,7 +25,7 @@ end
 def printer(attendees)
   printer.each do |line|
   
-  attendees = assign_rooms 
+  attendees = batch_badge_creator
 end
 attendees
   
